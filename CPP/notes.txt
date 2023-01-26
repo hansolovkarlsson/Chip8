@@ -1,0 +1,31 @@
+
+* command line arguments
+	- binary file to run
+	- -p	print disasm
+	- -d	debug mode
+	- -a	address for load
+	- -r	start address to run
+	- -o	output file compile
+	- -c	compile
+
+* make a disassembler set of functions instead
+	- dis_1(word)->str
+	- dis_mem()  ->print
+	- labels etc
+	- check if any "standard" mnem code
+
+
+* and a trace print function
+		- TRACE() macro maybe, or trace(...) variable arg
+		- trace macro is best since it would remove any performace caused by if-flag tests
+
+
+* make a debugger
+	- assm_1("string")->code
+
+
+* make an assembler
+
+
+* make a HEX-monitor ROM program, boot program in <x200
+* one of the stop ops is to reset into boot program, the other is turn off
